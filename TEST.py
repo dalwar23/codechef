@@ -1,5 +1,6 @@
 #!/usr/bin/python -tt
 # Copyright Md Dalwar Hossain Arif
+# For more iformation please visit:
 # www.arif23.com/codeXplained
 
 import sys
