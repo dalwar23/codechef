@@ -5,7 +5,7 @@
 
 import sys
 
-# Define a main() function that process the data
+# Define a main() function that process the data-
 def main():
 	lst = []
 	t = int(input())
