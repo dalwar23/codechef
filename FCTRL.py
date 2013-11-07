@@ -1,7 +1,7 @@
 #!/usr/bin/python -tt
 # Copyright Md Dalwar Hossain Arif
 # To know the explanation of this code please visit:
-# www.arif23.com/codeXplained
+# www.arif23.com/codexplained
 
 import sys
 
