@@ -4,7 +4,7 @@ codechef practice files and accepted submissions
 
 Languages Used
 ==============
-C, C++, Python 3.1.3, PHP5.5
+Python 3.3.2
 
 Contribution
 ============
@@ -12,7 +12,7 @@ Md Dalwar Hossain Arif
 
 Copyright
 =========
-Md Dalwar Hossain Arif - www.arif23.com
+Md Dalwar Hossain Arif - www.arif23.com/codexplained
 
 License
 =======
