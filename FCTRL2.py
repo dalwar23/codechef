@@ -14,7 +14,7 @@ def getFactorial(n):
 
 # Define a main() function that process the data
 def main():
-	t, *lst = map(int,sys.stdin.buffer.reline().split())
+	t, *lst = map(int,sys.stdin.buffer.read().split())
 	for i in range (t):
 		n = lst[i]
 		factorial = getFactorial(n)
