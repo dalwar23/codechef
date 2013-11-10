@@ -4,18 +4,23 @@
 # www.arif23.com/codexplained
 
 import sys
+import os
 
 # Define a openFile() function that opens a file and read it and output to another file
 def openFile():
 	# Open input and output files
-	inputFile = open("io-sample/input.txt","r")
-	outputFile = open("io-sample/output.txt","wb")
+	file1 = "io-sample/input.txt"
+	file2 = "io-sample/output.txt"
+	inputFile = open(file1,"r")
+	outputFile = open(file2,"w")
 
 	# Write to output file
 	# In python 3.x versions write() doesn't support string - it can be done with encoding
-	for line in inputFile:
-		line = inputFile.readline()
-		outputFile.write(bytes(line,"utf-8"))
+	status = os.stat(file1)
+	print (status.st_mtime)
+	lines = inputFile.read()
+	print (lines)
+	output = outputFile.write(lines)
 
 	# Close open files
 	inputFile.close()
