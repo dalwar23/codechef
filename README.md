@@ -12,7 +12,7 @@ Md Dalwar Hossain Arif
 
 Copyright
 =========
-Md Dalwar Hossain Arif - www.arif23.com/codexplained
+Md Dalwar Hossain Arif
 
 License
 =======
